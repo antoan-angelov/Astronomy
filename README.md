@@ -5,7 +5,7 @@ Project was for the National Olympiad in Information Technologies 2013 in Bulgar
 
 Solar System Model is a 3D model of our Solar System for educational purposes. Every celestial body comes with a lesson and a test after each lesson.
 
-# Structure #
+## Structure ##
 
 A quick rundown of the main directory:
 
