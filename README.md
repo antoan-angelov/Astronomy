@@ -9,11 +9,9 @@ Lessons, tests and celestial body info (tilts, sizes, rotation speeds, etc.) are
 
 All 3D objects are realized with the help of Away3D, which takes advantage of Flash Player 11's GPU acceleration.
 
-Here is a demo:
+[DEMO](http://www.youtube.com/watch?feature=player_embedded&v=Av2rO8j9--A)
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=Av2rO8j9--A
-" target="_blank"><img src="http://img.youtube.com/vi/Av2rO8j9--A/0.jpg" 
-alt="View demo" width="240" height="180" border="10" /></a>
+
 
 ## Structure ##
 
