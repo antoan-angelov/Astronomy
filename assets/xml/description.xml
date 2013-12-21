@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+template:
+<SolarSystem map="map1.png" radius="radius" segmentsW="segmentsW" segmentsH="segmentsH">
+	<Sun name="Name" id="id" map="map.png" side="side">
+		<Planet name="Planet1" id="planet1" map="planet1.jpg" normalMap="planetmap_bump.jpg" radius="300" segmentsW="24" segmentsH="24" rotationSpeed="-2" rightAscension="0" declination="0">
+			<Orbit color="0xFFFFFF" inclination="0" argumentOfPeriapsis="0" longitudeOfAscendingNode="0" semiMinorAxis="0" semiMajorAxis="0" trueAnomaly="0" speedCoeff="1" />
+		</Planet>
+		<Planet name="Planet2" id="planet2" map="planet2.jpg" radius="300" segmentsW="24" segmentsH="24" rotationSpeed="-2" rightAscension="0" declination="0">
+			<Orbit color="0xFFFFFF" inclination="0" argumentOfPeriapsis="0" longitudeOfAscendingNode="0" semiMinorAxis="0" semiMajorAxis="0" trueAnomaly="0" speedCoeff="1" />
+			<Moon name="Moon" id="moon" map="moon_map.jpg" normalMap="moon_bump.jpg" radius="100" segmentsW="18" segmentsH="9" rotationSpeed="-1">
+				<Orbit inclination="5.145" argumentOfPeriapsis="318.15" longitudeOfAscendingNode="125.08" semiMinorAxis="700" semiMajorAxis="750" trueAnomaly="0" speedCoeff="1" /> 
+			</Moon>
+		</Planet>
+		<Planet name="Planet3" id="planet3" map="planet3.jpg" normalMap="planetmap_bump.jpg" radius="300" segmentsW="24" segmentsH="24" rotationSpeed="-2" rightAscension="0" declination="0">
+			<Orbit color="0xFFFFFF" inclination="0" argumentOfPeriapsis="0" longitudeOfAscendingNode="0" semiMinorAxis="0" semiMajorAxis="0" trueAnomaly="0" speedCoeff="1" />
+		</Planet>
+	</Sun>
+</SolarSystem>
+-->
+
+<SolarSystem map="milky_way.png" radius="154000" segmentsW="32" segmentsH="16">
+	
+	<Sun name="Слънце" id="sun" map="sun_small.png" side="3000">
+		
+		<Planet name="Меркурий" id="mercury" map="mercury_map.jpg" normalMap="mercury_bump.jpg" radius="400" segmentsW="24" segmentsH="24" rotationSpeed="-2" rightAscension="281.01" declination="61.45">
+			<Orbit color="0xc22626" inclination="7.005" argumentOfPeriapsis="29.124" longitudeOfAscendingNode="48.331" semiMinorAxis="2400" semiMajorAxis="2500" trueAnomaly="167.113" speedCoeff="0.7" />
+		</Planet>
+		
+		<Planet name="Венера" id="venus" map="venus_map.jpg" normalMap="venus_bump.jpg" radius="400" segmentsW="24" segmentsH="24" rotationSpeed="-2" rightAscension="92.76" declination="-67.16">
+			<Orbit color="0x187b18" inclination="3.394" argumentOfPeriapsis="55.186" longitudeOfAscendingNode="76.678" semiMinorAxis="4500" semiMajorAxis="4500" trueAnomaly="357.935" speedCoeff="0.7" />
+		</Planet>
+		
+		<Planet name="Земя" id="earth" map="earth_map.jpg" radius="400" segmentsW="24" segmentsH="24" rotationSpeed="-2" rightAscension="0" declination="90">
+			<Orbit color="0x3030b2" inclination="0" argumentOfPeriapsis="0" longitudeOfAscendingNode="0" semiMinorAxis="6000" semiMajorAxis="6000" trueAnomaly="357.935" speedCoeff="1" />
+			<Moon name="Луна" id="moon" map="moon_map.jpg" normalMap="moon_bump.jpg" radius="100" segmentsW="18" segmentsH="9" rotationSpeed="-1">
+				<Orbit inclination="5.145" argumentOfPeriapsis="318.15" longitudeOfAscendingNode="125.08" semiMinorAxis="700" semiMajorAxis="750" trueAnomaly="0" speedCoeff="1" /> 
+			</Moon>
+		</Planet>
+		
+		<Planet name="Марс" id="mars" map="mars_map.jpg" normalMap="mars_bump.jpg" radius="400" segmentsW="24" segmentsH="24" rotationSpeed="-2" rightAscension="317.68" declination="52.89">
+			<Orbit color="0xd0632d" inclination="1.850" argumentOfPeriapsis="286.537" longitudeOfAscendingNode="49.562" semiMinorAxis="7500" semiMajorAxis="7500" trueAnomaly="20.430" speedCoeff="1" />
+		</Planet>
+		
+		<Planet name="Юпитер" id="jupiter" map="jupiter_map.jpg" radius="600" segmentsW="48" segmentsH="24" rotationSpeed="-2" rightAscension="268.05" declination="64.49">
+			<Orbit color="0xeae82e" inclination="1.305" argumentOfPeriapsis="275.066" longitudeOfAscendingNode="100.492" semiMinorAxis="9500" semiMajorAxis="9500" trueAnomaly="18.818" speedCoeff="1" />
+		</Planet>
+		
+		<Planet name="Сатурн" id="saturn" map="saturn_map.jpg" radius="600" segmentsW="48" segmentsH="24" rotationSpeed="-2" rightAscension="40.60" declination="83.54">
+			<Ring map="saturn_ring_map.png" radius="450" numMeshes="72" thickness="300" />
+			<Orbit color="0x29d391" inclination="2.485" argumentOfPeriapsis="336.013" longitudeOfAscendingNode="113.642" semiMinorAxis="11500" semiMajorAxis="11500" trueAnomaly="320.318" speedCoeff="1" />
+		</Planet>
+		
+		<Planet name="Уран" id="uranus" map="uranus_map.jpg" radius="400" segmentsW="24" segmentsH="24" rotationSpeed="-2" rightAscension="77.43" declination="15.10">
+			<Ring map="uranus_ring_map.png" radius="140" numMeshes="72" thickness="100" />
+			<Orbit color="0x29a4be" inclination="0.772" argumentOfPeriapsis="96.541" longitudeOfAscendingNode="73.989" semiMinorAxis="13500" semiMajorAxis="13500" trueAnomaly="143.411" speedCoeff="1" />
+		</Planet>
+		
+		<Planet name="Нептун" id="neptune" map="neptune_map.jpg" radius="400" segmentsW="24" segmentsH="24" rotationSpeed="-2" rightAscension="299.36" declination="43.46">
+			<Orbit color="0x5474c8" inclination="1.767" argumentOfPeriapsis="265.646" longitudeOfAscendingNode="131.794" semiMinorAxis="14500" semiMajorAxis="14500" trueAnomaly="268.236" speedCoeff="1" />
+		</Planet>
+		
+		<Planet name="Плутон" id="pluto" map="pluto_map.jpg" normalMap="pluto_bump.jpg" radius="400" segmentsW="24" segmentsH="24" rotationSpeed="-2" rightAscension="133.02" declination="-9.09">
+			<Orbit inclination="17.151" argumentOfPeriapsis="113.763" longitudeOfAscendingNode="110.286" semiMinorAxis="15500" semiMajorAxis="15500" trueAnomaly="17.196" speedCoeff="1" />
+		</Planet>		
+	</Sun>
+</SolarSystem>
