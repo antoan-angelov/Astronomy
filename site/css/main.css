@@ -1,0 +1,308 @@
+/*nastroivame shrift i otstoqniq po podrazbirane*/
+body {
+	background: #000000;
+	padding:0;
+	margin:0;
+	color: white;
+	font-family: 'Open Sans', 'Segoe UI', Arial, sans-serif;
+}
+
+/*ako gledame na saita kato na tip prezentaciq, to tozi klas predstavlqva vseki "slaid", t.e. vseki ekran*/
+.slide {
+	width:100%;
+	height:1080px;
+	color: white;
+	display:table;
+	margin-left:170px;
+	margin-bottom:200px;
+}
+
+/*avtomatichno centrira vytreshnite div elementi, ako ima takiva*/
+.slide div {
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	font-size:16px;
+}
+
+/*tozi klas opisva meniuto vlqvo*/
+#left_menu {
+	background: #0xFF0000;
+	color:white;
+	position:fixed;
+	top:50%;
+	margin-top:-142px;
+	width: 170px;
+}
+
+/*nadpisa s moeto ime, e-mail i izpolzvani resursi*/
+#credits {
+	position:fixed;
+	bottom:0;
+	left:0;
+	color: rgb(126, 126, 126);
+	font-family: 'Segoe UI', Arial, sans-serif;
+	font-size:12px;
+	padding:7px;
+}
+
+#credits:hover {
+	color: white;
+}
+
+#credits:hover a {
+	color: rgb(100, 198, 255);
+}
+
+#credits a {
+	color: rgb(126, 126, 126);
+}
+
+ul li{
+	padding:0;
+	margin:0;	
+}
+
+li a{
+	color:white;
+	margin:0;
+	padding: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width:120px;
+	display:inline-block;	
+}
+
+/*glavniqt konteiner, tozi div e nai-vynshniqt v taga body*/
+#cont {
+	position:relative;
+	top:0;
+	left:0;
+}
+
+#left_menu ul {
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-style: italic;
+}
+
+#left_menu ul li, .button1, .button2  {
+	background: #414141;
+	margin:5px;
+	cursor:pointer;
+	color:white;
+}
+
+/*tozi klas opisva kopche ot meniuto vlqvo, koeto e ocveteno v rozov cvqt, tyi kato se namirame na syotvetniq slaid*/
+.current {
+	background: #E5309E !important;
+}
+
+.current:hover {
+	background: rgb(252, 64, 178) !important;
+}
+
+ul a {
+	text-decoration:none;
+}
+
+ul a:hover {
+	text-decoration:none;
+}
+
+#left_menu ul li:hover {
+	background: #595959;
+}
+
+/*pyrvoto kopche "Iztegli"*/
+.button1 {
+	background:#E5309E !important;
+}
+
+.button1:hover {
+	background: rgb(252, 64, 178) !important;
+}
+
+/*vtoroto kopche "Iztegli"*/
+.button2 {
+	background:rgb(53, 166, 231) !important;
+}
+
+.button2:hover {
+	background: rgb(70, 182, 247) !important;
+}
+
+tr .button1, tr .button2 {
+	text-align:center;
+	font-style:italic;
+}
+
+/*kartinka na asteroid, poqvqva se pri po-golemi ekrani v sekciqta "Za proekta"*/
+.asteroid {
+	position:absolute;
+	z-index: -1;
+}
+
+/*opisva tikcheto v tablicata pri sekciqta "Iztegli"*/
+.yes {
+	background:url(../assets/img/yes.png) no-repeat center;
+}
+
+/*opisva hikscheto v tablicata pri sekciqta "Iztegli"*/
+.no {
+	background:url(../assets/img/no.png) no-repeat center;
+}
+
+table, th, td {
+	border: 1px #414141 solid;
+}
+
+a {
+	text-decoration:none;
+	color: rgb(100, 198, 255);
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+h1 {
+	font-size:90px;
+	font-style: italic; 
+	text-align:center;
+	margin: 0;
+	font-weight:300;
+}
+
+/*pri mobilni ustroistva diva s id "credits" se skriva i se zamestva ot tozi div*/
+#credits_fallback {
+	visibility:hidden;
+	position:absolute;
+	left:50%;
+	margin-left:-158px;
+	bottom:5px;	
+	font-size:12px;
+}
+
+td, th {
+	padding:15px;	
+}
+
+.download { }
+
+#resources, #resources2 {
+	cursor:pointer;	
+}
+
+/*pri po-tesni ekrani ot 1024px optimizirame izgleda na saita (mahame asteroidite, prenastroivame shirinata na tablicata pri sekciq "Iztegli", promenqme shirinata na iframe-a s demo klipa i t.n.)*/
+@media all and (max-width:1024px) {
+	
+	#home_cont {
+		background-size: contain !important;	
+	}
+	
+	#demo_cont {
+		background-size: contain !important;	
+	}
+	
+	iframe {
+		width:450px;
+		height: 253px;	
+	}
+	
+	.asteroid {
+		display:none;	
+	}
+	
+	table {
+		width:80%;	
+	}
+	
+	h1 {
+		font-size: 50px;
+	}
+	
+	.slide div {
+		font-size: 14px;
+	}
+}
+
+/*pri po-tesni ekrani ot 860px smalqvame dopylnitelno iframe-a s demo klipa*/
+@media all and (max-width:860px) {
+		
+	iframe {
+		width:350px;
+		height: 197px;	
+	}
+}
+
+/*portreten rejim za Galaxy Nexus i telefoni s podoben ekran (s minimalna shirina 720px)*/
+@media screen and (max-device-width: 720px) and (orientation:portrait) {
+	#left_menu {
+		display:none;	
+	}
+	
+	.slide {
+		margin-left:0px;	
+	}
+	
+	td, th {
+		padding-left:3px;	
+		padding-right:3px;	
+	}
+	
+	#button1, #button2 {
+		padding-left:0px;
+		padding-right:0px;
+	}
+}
+
+/*Galaxy Nexus i drugi s podoben ekran (s minimalna shirina 720px)*/
+@media screen and (max-device-width: 720px) {
+	#credits {
+		display: none;	
+	}
+	
+	#credits_fallback {
+		visibility:visible;
+	}
+	
+	iframe {
+		width:320px;
+		height: 180px;	
+	}
+}
+
+/*iPhone 4, iPhone 5*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) { 
+	#left_menu {
+		display:none;	
+	}
+	
+	.slide {
+		margin-left:0px;	
+	}
+	
+	.slide div {
+		font-size: 14px !important;
+	}
+	
+	td, th {
+		padding-left:3px !important;	
+		padding-right:3px !important;	
+	}
+	
+	#button1, #button2 {
+		padding-left:0px !important;
+		padding-right:0px !important;
+		width:100%;
+	}	
+	
+	table {
+		width:100%;	
+	}
+}
+
+
