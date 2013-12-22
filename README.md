@@ -1,5 +1,8 @@
 Solar System Model
 =========
+![alt text][logo]
+
+[logo]: http://i.imgur.com/6Ku07Px.jpg "Logo Title Text 2"
 
 Project was for the National Olympiad in Information Technologies 2013 in Bulgaria, finished in 5th place. 
 
