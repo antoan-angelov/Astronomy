@@ -2,11 +2,11 @@ Solar System Model
 =========
 ![alt text][logo]
 
-[logo]: http://i.imgur.com/6Ku07Px.jpg "Logo Title Text 2"
+[logo]: http://i.imgur.com/6Ku07Px.jpg "Screenshot of the application"
 
 Project was for the National Olympiad in Information Technologies 2013 in Bulgaria, finished in 5th place. 
 
-Solar System Model is a 3D model of our Solar System for educational purposes. Every celestial body comes with a lesson and a test after each lesson.
+Solar System Model is a Flash-based 3D model of our Solar System for educational purposes. Every celestial body comes with a lesson and a test after each lesson.
 
 Lessons, tests and celestial body info (tilts, sizes, rotation speeds, etc.) are defined as XML files in the assets folder. They are then read by the projector file and practically the whole Solar System implementation is manipulated by these XML files.
 
