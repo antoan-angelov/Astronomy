@@ -34,5 +34,5 @@ A quick rundown of the main directory:
 - [Video](http://www.youtube.com/watch?feature=player_embedded&v=Av2rO8j9--A)
 
 # Developed By #
-- Antoan Angelov - [Tweener](antoan.angelov@gmail.com)
+- Antoan Angelov - [antoan.angelov@gmail.com](antoan.angelov@gmail.com)
 
