@@ -1,8 +1,8 @@
 Solar System Model
 =========
-![alt text][logo]
+![alt text][banner]
 
-[logo]: http://i.imgur.com/6Ku07Px.jpg "Screenshot of the application"
+[banner]: http://i.imgur.com/6Ku07Px.jpg "Screenshot of the application"
 
 Project was for the National Olympiad in Information Technologies 2013 in Bulgaria, finished in 5th place. 
 
@@ -11,6 +11,11 @@ Solar System Model is a Flash-based 3D model of our Solar System for educational
 Lessons, tests and celestial body info (tilts, sizes, rotation speeds, etc.) are defined as XML files in the assets folder. They are then read by the projector file and practically the whole Solar System implementation is manipulated by these XML files.
 
 All 3D objects are realized with the help of Away3D, which takes advantage of Flash Player 11's GPU acceleration.
+
+It comes with a <a href="http://noit2013.scienceontheweb.net" target="_blank">complementary promotional site too</a>!
+
+![alt text][site]
+[site]: http://i.imgur.com/6rrzqWb.png "Screenshot of the promotional site"
 
 # Structure #
 A quick rundown of the main directory:
@@ -31,7 +36,7 @@ A quick rundown of the main directory:
 - **[Tweener](https://code.google.com/p/tweener/)** for smooth animations
 
 # Demo #
-- [Video](http://www.youtube.com/watch?feature=player_embedded&v=Av2rO8j9--A)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Av2rO8j9--A" target="_blank"><img src="http://i.imgur.com/nfuHWwy.png" alt="Click to play demo" /></a>
 
 # Developed By #
 - Antoan Angelov - [antoan.angelov@gmail.com](mailto:antoan.angelov@gmail.com)
