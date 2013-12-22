@@ -17,13 +17,16 @@ A quick rundown of the main directory:
 - **site**: source of complementary static site
 - **libs**: the two libraries I use, Away3D for 3D modelling and Tweener for smooth animations
 - **com**: the source code
+
 # Minimum Requirements #
 - Mid-range graphics card (will start in Software mode otherwise - will work with slow performance)
 - 1024x768 monitor resolution
 - Windows XP
+
 # Libraries #
 - **[Away3D](http://away3d.com/)** for 3D modelling 
 - **[Tweener](https://code.google.com/p/tweener/)** for smooth animations
+
 # Demo #
 - [Video](http://www.youtube.com/watch?feature=player_embedded&v=Av2rO8j9--A)
 # Developed By #
