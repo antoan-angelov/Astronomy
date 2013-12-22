@@ -9,11 +9,7 @@ Lessons, tests and celestial body info (tilts, sizes, rotation speeds, etc.) are
 
 All 3D objects are realized with the help of Away3D, which takes advantage of Flash Player 11's GPU acceleration.
 
-[DEMO](http://www.youtube.com/watch?feature=player_embedded&v=Av2rO8j9--A)
-
-
-
-## Structure ##
+# Structure #
 
 A quick rundown of the main directory:
 
@@ -23,5 +19,20 @@ A quick rundown of the main directory:
 - **libs**: the two libraries I use, Away3D for 3D modelling and Tweener for smooth animations
 - **com**: the source code
 
+# Minimum Requirements #
 
+- Mid-range graphics card (will start in Software mode otherwise - will work with slow performance)
+- 1024x768 monitor resolution
+- Windows XP
+
+# Libraries #
+- **[http://away3d.com/](Away3D)** for 3D modelling 
+- **[https://code.google.com/p/tweener/](Tweener)** for smooth animations
+
+# Demo #
+
+- [http://www.youtube.com/watch?feature=player_embedded&v=Av2rO8j9--A](Video)
+
+# Developed By #
+- Antoan Angelov - [antoan.angelov@gmail.com](Tweener)
 
