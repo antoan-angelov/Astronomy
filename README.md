@@ -36,7 +36,7 @@ A quick rundown of the main directory:
 - **[Tweener](https://code.google.com/p/tweener/)** for smooth animations
 
 # Demo #
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=Av2rO8j9--A" target="_blank"><img src="http://i.imgur.com/nfuHWwy.png" alt="Click to play demo" /></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Av2rO8j9--A" target="_blank"><img src="http://i.imgur.com/nfuHWwy.png" title="Click to play demo" /></a>
 
 # Developed By #
 - Antoan Angelov - [antoan.angelov@gmail.com](mailto:antoan.angelov@gmail.com)
