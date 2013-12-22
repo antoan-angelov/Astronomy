@@ -26,13 +26,13 @@ A quick rundown of the main directory:
 - Windows XP
 
 # Libraries #
-- **[http://away3d.com/](Away3D)** for 3D modelling 
-- **[https://code.google.com/p/tweener/](Tweener)** for smooth animations
+- **[Away3D](http://away3d.com/)** for 3D modelling 
+- **[Tweener](https://code.google.com/p/tweener/)** for smooth animations
 
 # Demo #
 
-- [http://www.youtube.com/watch?feature=player_embedded&v=Av2rO8j9--A](Video)
+- [Video](http://www.youtube.com/watch?feature=player_embedded&v=Av2rO8j9--A)
 
 # Developed By #
-- Antoan Angelov - [antoan.angelov@gmail.com](Tweener)
+- Antoan Angelov - [Tweener](antoan.angelov@gmail.com)
 
